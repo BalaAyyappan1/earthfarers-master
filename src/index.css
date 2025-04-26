@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f1ede6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mix {
+  mix-blend-mode: color-dodge;
+  position: fixed;
+  font-size: 3rem;
+  padding: 2.5rem;
+  color: var(--color);
+  max-width: 800px;
+}
+
+
+@font-face {
+  font-family: 'itnernational';
+  src: url("./assets/fonts//International.ttf"), format("truetype");
+
+}
+
+.int{
+  font-family: 'itnernational';
+}
+
+.intern {
+  /* font-family: 'itnernational'; */
+  font-family: "Poppins", sans-serif;
+}
+
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bluex {
+  background-color: #064185;
+}
+
+.bluet {
+  color: #064185;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  cursor: pointer;
+}
+::-webkit-scrollbar:hover{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ede6;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  /* border-radius: 10px; */
+  background: #064185;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a5ead;
+  cursor: pointer;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+display: none;
+}
+
+
+
+.fade-mask {
+  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 30%);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+}
