@@ -87,10 +87,10 @@ const About = () => {
           </div>
           <div className="w-1/3 flex items-center gap-4 mb-8 lg:mb-0">
             <img src={blue} alt="blue" className="w-32 md:w-36" />
-            <div className="text-4xl items-start flex flex-col md:text-5xl bluet">
+            <div className="text-4xl items-start flex flex-col md:text-6xl bluet">
               <h1 className="uppercase font-bold">EARTH</h1>
               <h1 className="uppercase font-bold">FARERS</h1>
-              <h1 className="uppercase font-bold">EXIM</h1>
+              {/* <h1 className="uppercase font-bold">EXIM</h1> */}
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ const About = () => {
             <RiDoubleQuotesL className="absolute text-4xl bottom-0 md:bottom-4 scale-[-1] -right-4 md:right-[24%]" />
             <h2 className="text-2xl md:text-4xl int text-gray-500 leading-normal  font- mb-4">
               Time is essential in the export business, which is why at{" "}
-              <span className="bluet font-semibold">Earth Farers EXIM</span>, we
+              <span className="bluet font-semibold">Earth Farers</span>, we
               are dedicated to completing every job on schedule, without
               exception.
             </h2>

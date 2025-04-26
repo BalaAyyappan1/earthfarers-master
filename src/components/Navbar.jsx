@@ -37,6 +37,11 @@ const Navbar = () => {
           <Link to="/" className="w-12 h-12">
             <img src={logo} alt="logo" className="w-full h-full" />
           </Link>
+          <div className=" text-sm md:text-lg bluet hidden md:block">
+            <h1 className="uppercase font-bold">EARTH</h1>
+            <h1 className="uppercase font-bold">FARERS</h1>
+            {/* <h1 className="uppercase font-bold">EXIM</h1> */}
+          </div>
         </motion.div>
 
         {/* Right Navbar Links */}

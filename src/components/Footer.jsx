@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Left section with logo and brand name */}
         <div className="flex items-center gap-4 mb-8 md:mb-0">
           <img src={blue} alt="blue" className="w-32 md:w-48" />
-          <div className="text-4xl md:text-6xl bluet">
+          <div className="text-4xl md:text-7xl bluet">
             <h1 className="uppercase font-bold">EARTH</h1>
             <h1 className="uppercase font-bold">FARERS</h1>
             {/* <h1 className="uppercase font-bold">EXIM</h1> */}
