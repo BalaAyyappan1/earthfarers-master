@@ -46,7 +46,7 @@ const HeroSection = () => {
         {/* Navbar */}
         <Navbar />
         <div className='absolute inset-0 bg-black/50 ' />
-        <h1 className=" flex  text-4xl md:text-7xl md:leading-[90px] leading-[45px] w-[65%]   absolute md:bottom-20 text-start md:left-20 left-10 bottom-10 font-semibold text-white">
+        <h1 className=" flex  text-4xl md:text-6xl md:leading-[90px] leading-[45px] w-[65%]   absolute md:bottom-20 text-start md:left-20 left-10 bottom-10 font-semibold text-white">
         Supplying with Purpose, Growing with Responsibility
         </h1>
         {/* Animated Video Reveal */}
